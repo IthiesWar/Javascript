@@ -1,0 +1,35 @@
+<html>
+    <title>
+        Form Validation
+    </title>
+    <head>
+        <link rel="stylesheet" href="Css/index.css">
+       <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="div">
+            <p>Form Validation</p>
+            <br>
+            <form onsubmit="return validate()" action="sec.html">
+                <label>username</label>
+                <br>
+                <input type="text" id="username" class="username">
+               <!-- <label id="invalid1" style="visibility: hidden;color: red;" >invalid</label>-->
+                <br>
+                <label for="emial">email</label>
+                <br>
+                <input type="email" id="email">
+                <br>
+                <label for="phone">Phone</label>
+                <br>
+                <input type="number" id="phone">
+                <br>
+                <label>password</label>
+                <br>
+                <input type="password" id="password" class="username">
+                <br>
+                <input type="submit" value="submit" class="value">
+            </form>
+        </div>
+    </body>
+</html>
